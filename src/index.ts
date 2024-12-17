@@ -4,7 +4,7 @@ import "./styles/style.scss";
 export function enableTransliteration(input: any, language: any){
     new TransliterationProvider(input, language);
 }
-const sass = require('sass');
+
 const result = sass.renderSync({
   silenceDeprecations: ['legacy-js-api'],
 });
